@@ -22,8 +22,6 @@ rake
 
 ## Related projects
 
-```rpn_sample_ruby``` is the top-level repo. ```rpn_ruby``` and ```rpn_service``` are git submodules.
-
 ```rpn_service``` is a RESTful service that wraps module ```rpn_ruby```.
 
 ```rpn_ui``` is a Sinatra-based webapp that calls service ```rpn_service```.
