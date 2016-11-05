@@ -10,11 +10,11 @@ Gem::Specification.new do |spec|
   spec.email         = ["davenicolette@gmail.com"]
   spec.summary       = %q{Reverse Polish Notation calculator}
   spec.description   = %q{Processes arithmetic expressions in postfix notation}
-  spec.homepage      = "http://github.com/neopragma/rpn-ruby"
+  spec.homepage      = "http://github.com/neopragma/rpn_ruby"
   spec.license       = "GNU General Public License (GPLv3)"
 
   spec.files         = `git ls-files -z`.split("\x0")
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.executables   = []
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
